@@ -12,7 +12,7 @@ const routes: Routes = [
     path: '',
     component: MenuPage,
     children: [ //membaca content yang akan ada di menu
-      { path: 'first-with-tabs', loadChildren: '../first-with-tabs/first-with-tabs.module#FirstWithTabsPageModule'},
+      { path: 'first', loadChildren: '../first-with-tabs/first-with-tabs.module#FirstWithTabsPageModule'},
       //path: <nama page>, loadChildren: <direktori>
       { path: 'second', loadChildren: '../second/second.module#SecondPageModule'},
       { path: 'firebasepage', loadChildren: '../firebasepage/firebasepage.module#FirebasepagePageModule'}
