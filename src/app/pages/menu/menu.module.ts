@@ -15,7 +15,8 @@ const routes: Routes = [
       { path: 'first', loadChildren: '../first-with-tabs/first-with-tabs.module#FirstWithTabsPageModule'},
       //path: <nama page>, loadChildren: <direktori>
       { path: 'second', loadChildren: '../second/second.module#SecondPageModule'},
-      { path: 'firebasepage', loadChildren: '../firebasepage/firebasepage.module#FirebasepagePageModule'}
+      { path: 'firebasepage', loadChildren: '../firebasepage/firebasepage.module#FirebasepagePageModule'},
+      { path: 'second/details', loadChildren: '../details/details.module#DetailsPageModule'}
     ]
   }
 ];

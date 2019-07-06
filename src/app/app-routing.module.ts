@@ -19,6 +19,7 @@ const routes: Routes = [
   {path:'', redirectTo: 'login', pathMatch: 'full'},
   {path:'login', loadChildren:'./pages/login/login.module#LoginPageModule'},
   {path:'menu', loadChildren:'./pages/menu/menu.module#MenuPageModule'},
+  { path: 'tab3', loadChildren: './pages/tab3/tab3.module#Tab3PageModule' },
 ];
 
 @NgModule({
