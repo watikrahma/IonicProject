@@ -20,6 +20,9 @@ const routes: Routes = [
   {path:'login', loadChildren:'./pages/login/login.module#LoginPageModule'},
   {path:'menu', loadChildren:'./pages/menu/menu.module#MenuPageModule'},
   { path: 'tab3', loadChildren: './pages/tab3/tab3.module#Tab3PageModule' },
+  { path: 'loginfirebase', loadChildren: './pages/loginfirebase/loginfirebase.module#LoginfirebasePageModule' },
+  { path: 'firebasepage', loadChildren: './pages/firebasepage/firebasepage.module#FirebasepagePageModule'},
+  { path: 'new-task', loadChildren: './pages/new-task/new-task.module#NewTaskPageModule' }
 ];
 
 @NgModule({

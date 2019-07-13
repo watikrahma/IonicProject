@@ -40,7 +40,7 @@ export class AuthService {
   }
 
   //untuk logout user
-  doLogout(value) {
+  doLogout() {
     return new Promise<any>((resolve, reject) => {
       this.afAuth.auth.signOut()
         .then(() => {

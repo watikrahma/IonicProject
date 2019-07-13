@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FormsModule, ReactiveFormsModule  } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { Routes, RouterModule } from '@angular/router';
 
 import { IonicModule } from '@ionic/angular';
 
-import { FirebasepagePage } from './firebasepage.page';
+import { NewTaskPage } from './new-task.page';
 
 const routes: Routes = [
   {
     path: '',
-    component: FirebasepagePage
+    component: NewTaskPage
   }
 ];
 
@@ -22,6 +22,6 @@ const routes: Routes = [
     ReactiveFormsModule,
     RouterModule.forChild(routes)
   ],
-  declarations: [FirebasepagePage]
+  declarations: [NewTaskPage]
 })
-export class FirebasepagePageModule {}
+export class NewTaskPageModule {}

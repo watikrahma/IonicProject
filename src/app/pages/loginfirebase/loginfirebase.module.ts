@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FormsModule, ReactiveFormsModule  } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { Routes, RouterModule } from '@angular/router';
 
 import { IonicModule } from '@ionic/angular';
 
-import { FirebasepagePage } from './firebasepage.page';
+import { LoginfirebasePage } from './loginfirebase.page';
 
 const routes: Routes = [
   {
     path: '',
-    component: FirebasepagePage
+    component: LoginfirebasePage
   }
 ];
 
@@ -22,6 +22,6 @@ const routes: Routes = [
     ReactiveFormsModule,
     RouterModule.forChild(routes)
   ],
-  declarations: [FirebasepagePage]
+  declarations: [LoginfirebasePage]
 })
-export class FirebasepagePageModule {}
+export class LoginfirebasePageModule {}
